@@ -6,7 +6,8 @@ export default function App() {
  //code here 
  const[inputValue, setInputValue] = useState("");
  const changeInput=(e)=>{
-  setInputValue(e.target.value);
+  const input = e.target.value;
+  setInputValue(input);
  }
  const buttonclick=()=>{
    setInputValue("");
